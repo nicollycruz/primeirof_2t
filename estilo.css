@@ -1,0 +1,22 @@
+body{
+  background: cyan
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+  position:absolute;
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  color:  black;
+  left: 40%
+}
+.caixa2 {
+  position: absolute;
+  background: yellow;
+  width: 200px;
+  heigth: 700px;
+  color: black;
+  left: 55%;
+}
