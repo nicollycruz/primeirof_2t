@@ -1,12 +1,12 @@
 body{
-  background: cyan
+  background: rgb(147, 196, 153)
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position:absolute;
-  background: yellow;
+  background: rgb(178, 212, 205);
   width: 200px;
   height: 200px;
   color:  black;
@@ -14,9 +14,18 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background: yellow;
+  background: rgb(252, 237, 35);
   width: 200px;
-  heigth: 700px;
+  height: 700px;
   color: black;
   left: 55%;
+}
+.MENUPRINCIPAL {
+  position: absolute ;
+  width: 100%;
+  height:100px ;
+  background-color: rgb(165, 132, 196);
+  top: 0;
+  left: 0;
+
 }
