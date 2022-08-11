@@ -1,12 +1,12 @@
 body{
-  background: rgb(147, 196, 153)
+  background: rgb(120, 171, 230)
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position:absolute;
-  background: rgb(178, 212, 205);
+  background: rgb(95, 61, 104);
   width: 200px;
   height: 200px;
   color:  black;
@@ -14,18 +14,38 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background: rgb(252, 237, 35);
+  background: rgb(139, 34, 172);
   width: 200px;
-  height: 700px;
+  height: 200px;
   color: black;
   left: 55%;
 }
 .MENUPRINCIPAL {
   position: absolute ;
   width: 100%;
-  height:100px ;
-  background-color: rgb(165, 132, 196);
+  height:24px ;
+  background-color: rgb(187, 108, 233);
   top: 0;
   left: 0;
 
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(17, 11, 11);
+  padding:5px 10px ;
+  text-align:center ;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(196, 15, 15);
+  background-color: rgb(233, 218, 218);
 }
