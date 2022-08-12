@@ -49,3 +49,22 @@ li a:hover {
   color: rgb(196, 15, 15);
   background-color: rgb(233, 218, 218);
 }
+#imagem {
+  width: 100%;
+}
+.boxflorra{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 50%;
+  height: 200%;
+  background-color: rgb(211, 230, 105);
+  top: 80px;
+  left: 0;
+  margin:50px ;
+  border-color: black;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+
+}
