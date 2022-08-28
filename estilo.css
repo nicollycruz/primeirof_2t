@@ -2,20 +2,17 @@ body{
   background:  #a65ceb;
   margin: 0;
   padding: 0;
-
 }
 h1 {
   text-align: center;
   position: auto;
 }
-
 .menuPrincipal {
-  position: absolute;
+  position: relative; 
+  background: #fffd8d;
   width: 100%;
-  height: 60px;
-  background-color: #eeec62;
+  height: 45px;
   top: 0;
-  left: 0;
 }
 nav ul {
   list-style-type: none;
@@ -38,26 +35,10 @@ li a:hover {
 }
 #image {
   width: 35%;
-
-}
-.boxImage {
-  position: absolute;
-  width: 40%;
-  height: 30%;
-  background: #36dd7c;
-  top: 50px;
-  left: 0;
-  margin: 20px;
-  border-color: #25a3c2;
-  border-width: 20px;
-  border-style: solid;
-  padding: 20px;
-
 }
 .conteudo {
   position: absolute;
   top: 45px;
-
 }
 #rodape {
   width: 700%;
@@ -65,7 +46,19 @@ li a:hover {
   background: #a65ceb  ;
   color: black;
 }
-.uva2 {
-  width: 30%;
-  height: 500px;
+#frutas {
+  position: right;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 450px;
+  height: 400px;
+}
+#g {
+  position: right;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 450px;
+  height: 400px;
 }
