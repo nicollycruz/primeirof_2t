@@ -9,7 +9,7 @@ h1 {
 }
 .menuPrincipal {
   position: relative; 
-  background: #fffd8d;
+  background: #faf88e;
   width: 100%;
   height: 45px;
   top: 0;
@@ -54,7 +54,23 @@ li a:hover {
   width: 450px;
   height: 400px;
 }
-#g {
+#morango {
+  position: right;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 450px;
+  height: 400px;
+}
+#goiaba {
+  position: right;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 450px;
+  height: 400px;
+}
+#frutas {
   position: right;
   top: 0;
   right: 0;
